@@ -1,0 +1,397 @@
+*{
+    box-sizing:border-box ;
+    font-family: sans-serif;
+    margin: 0;
+    
+}
+.futuristic-bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 459px;
+    
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 50px; 
+
+    
+
+}
+
+.list1{
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+    gap: 19px;
+}
+.list1 a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.nav-button{
+    display: flex;
+    list-style-type: none;
+}
+.nav-button-1{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+.nav-button-2{
+    background-color: rgb(253, 129, 84);
+    border: none;
+    padding: 6px;
+    color:#fff;
+}
+
+.left-part1-inside>p:nth-child(1){
+    font-size: 40px;
+    margin: 70px auto 30px 80px;
+    width: 39%;
+    font-weight: 600;
+}
+.left-part1-inside>p:nth-child(2){
+    font-size: 13px;
+    margin: auto auto 25px 80px ;
+    /* margin-left */
+    width: 37%;
+    color: #8f8787;
+}
+
+.left-part1-inside>button:nth-child(3){
+    background-color: rgb(253, 129, 84);
+    border: none;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fff;
+    width: 79px;
+    height: 30px;
+    margin: auto 10px 25px 80px ;
+}
+
+.left-part1-inside>button:nth-child(4){
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.left-part1{
+    display: flex;
+}
+
+
+.left-part1{
+   color: #fff;
+} 
+
+.play-button{
+    width: 50px;
+    position: absolute;
+    top: 190px;
+    right: 350px;
+}
+
+.king-of-terania{
+    position: absolute;
+    top: 340px;
+    right: 250px;
+    width: 165px;
+
+}
+
+.dash{
+    position: absolute;
+    right: 180px;
+    top: 10px;
+
+}
+
+.next-arrow{
+    position: absolute;
+    right: -10px;
+    top: 40px;
+
+}
+
+.heading1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 55%;
+    margin: 180px  150px 70px 300px;
+    text-align: center;
+    
+}
+.popular-games-card{
+    display: flex;
+    margin: auto 50px;
+    gap: 29px;
+    justify-content: space-around;
+    justify-items: center;
+    
+
+}
+.popular-games{
+    background:#808080;
+}
+.popular-games>img:nth-child(1){
+    width: 100%;
+    height: 220px;
+}
+.a{
+    background: rgba(34, 30, 30, 0.781);
+
+}
+.b{
+    background: rgb(24, 22, 22);
+}
+.c{
+    background: rgb(154, 108, 207);
+}
+.d{
+    background: rgb(172, 161, 156);
+}
+
+.popular-games-inside{
+    margin: 15px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 30px;
+    position: relative;
+}
+.popular-games-inside>p:nth-child(2){
+    color:#2b2a2a;
+}
+.popular-games-inside>img:nth-child(3){
+    width: 40%;
+}
+
+.popular-games-inside>button:nth-child(4){
+    background-color: tomato;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    right: 1px;
+}
+.war-game{
+    margin: 50px;
+    margin-top: 80px;
+    display: flex;
+    gap: 79px;
+    
+}
+
+.war-game>img{
+    width: 40%;
+    height: 350px;
+}
+.war-game-inside>p:nth-child(1){
+    font-size: 40px;
+    font-weight: 700;
+    width: 62%;
+}
+
+.war-game-inside>p:nth-child(2){
+    font-size: 15px;
+    color: #808080;
+    margin: 50px auto;
+    padding-right: 25%;
+}
+.war-game-inside>button:nth-child(3), .war-game-inside>button:nth-child(4){
+    background-color: rgb(253, 129, 84);
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    width: 109px;
+    height: 39px;
+    margin: auto 5px ;
+    
+}
+.war-game-inside>button:nth-child(4){
+    background-color: transparent;
+    border: 1px tomato solid;
+    color: tomato;
+}
+.Game-Recommend{
+    display: flex;
+    margin: 90px 50px 100px 50px;
+    gap: 640px;
+
+    
+}
+.Game-Recommend p{
+    width: 40%;
+    font-size: 40px;
+    font-weight: 700;
+}
+.arrows1{
+    background: rgb(255, 242, 234);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+
+
+
+}
+.arrows1 img{
+    padding-top: 20px;
+    
+
+}
+.arrows2{
+    background: rgb(253, 134, 134);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    
+
+}
+.arrows2 img{
+    width: 30px;
+    padding-top: 20px;
+}
+
+.section-page2{
+    margin: 50px 50px 150px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+}
+
+.game-recmded{
+    display: flex;
+    gap: 50px;
+}
+.game-recmded img{
+    width: 38%;
+    height: 280px;
+}
+
+.game-recmded-para{
+    line-height: 40px;
+}
+
+.game-recmded-para>p:nth-child(1){
+    font-size: 29px;
+    font-weight: 600;
+    width: 90%;
+}
+.game-recmded-para>p:nth-child(2){
+    font-size: 15px;
+    font-weight: 600;
+    color: tomato;
+}
+
+.game-recmded-para>p:nth-child(3){
+    font-size: 15px;
+    font-weight: 600;
+    color: #808080;
+    width: 70%;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.game-recmded-para button{
+    font-size: 15px;
+    font-weight: 540;
+    background-color: tomato;
+    border: none;
+    padding: 15px 29px;
+    color: #fff;
+    
+}
+
+.game-recmded-para{
+    line-height: 40px;
+}
+
+
+/* page3 */
+
+
+.section-page3{
+    background: #000;
+    
+}
+.section-page3>p:nth-child(1) {
+    padding: 100px 50px;
+    text-align: center;
+    margin: 50px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    margin: auto 25%;
+}
+
+.section-page3-img{
+    padding: 50px;
+    display: flex;
+    gap: 50px;
+    color: #808080;
+}
+.section-page3-para{
+    margin: 50px 200px 70px auto;
+    line-height: 35px;
+    
+}
+.section-page3-img>img:nth-child(1){
+    width: 59%;
+    height: 450px;
+}
+
+
+.section-page3-flex>img:nth-child(1){
+    width: 35%;
+    height: 340px;
+    padding-right: 40px;
+}
+.section-page3-flex>img:nth-child(2){
+    width: 40%;
+    height: 200px;
+}
+
+.GAMES-OF-THE-WORLD{
+    position: absolute;
+    right: 230px;
+}
+.rectangel600{
+    width: 100%;
+}
+
+.unforgettable{
+
+}
+
+.unforgettable>p:nth-child(1){
+    font-size: 40px;
+    font-weight: 700;
+
+    
+}
+.unforgettable>p:nth-child(2){
+    font-size: 13px;
+    
+    
+}
+.unforgettable>button:nth-child(3){
+    font-size: 15px;
+    font-weight: 540;
+    background-color: tomato;
+    border: none;
+    padding: 15px 29px;
+    color: #fff;
+}

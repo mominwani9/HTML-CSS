@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Gaming Landing Page</title>
 </head>
 <body>
+   
+   <!-- backgroung-Image  -->
+   <img class="futuristic-bg" src="./Assets/Photos/futuristic-bg.png" alt="futuristic-bg">
 
     <!-- navbar -->
-    <nav>
+    <nav class="nav">
         <img src="./Assets/Icons/Logo.svg" alt="Logo">
-        <ul>
-            <li>Home</li>
-            <li>Categories</li>
-            <li>How it works </li>
-            <li>Pricing</li>
+        <ul class="list1">
+            <li><a href="/categories">Categories</a> </li>
+            <li><a href="/how-it-works">How it works </a> </li>
+            <li><a href="/pricing">Pricing</a> </li>
+            <li><a href="/home">Home</a> </li>
         </ul>
-        <ul>
-            <li><button>Sign In</button></li>
-            <li><button>Sign Up</button></li>
+        <ul class="nav-button">
+            <li>
+                <button  class="nav-button-1">Sign In</button>
+            </li>
+            <li >
+                <button class="nav-button-2">Sign Up</button>
+            </li>
 
         </ul>
     </nav>
@@ -27,49 +35,92 @@
     <!-- page1 -->
    <!-- left-part -->
 
-   <section>
+   <section class="left-part1">
+    <div class="left-part1-inside">
         <p>Play Game Everytime Always Be Winner And Strong</p>
         <p>Improve your gaming skills by playing games that are currently popular so that you don't go out of style improve skills.</p>
-        <button>Get Started</button><button>Learn more</button>
-    
+        <button>Get Started</button>
+        <button>Learn more</button>
+    </div>
       <div>
-        <img src="./Assets/Icons/playButton.svg" alt="play-button">
-      </div> 
-      <p>The King of Terania And Last Seasion XXIV</p>
-      <img src="./Assets/Icons/leftArrow.svg" alt="left-arrow"> 
+        <img class="play-button" src="./Assets/Icons/playButton.svg" alt="play-button">
+        <div class="king-of-terania">  
+            <img class="dash" src="./Assets/Icons/dash.svg" alt="dash">  
+            <p> The King of Terania And Last Seasion XXIV </p>
+            <img class="next-arrow" src="./Assets/Icons/nextArrow.svg" alt="nextArrow.svg"> 
+        </div>
+         
+    </div> 
     </section> 
-
     <!-- page2 -->
 
-    <p>The Most Popular Game About Fighting And Wars</p>
-    <img src="./Assets/Photos/soldier war.png" alt="soldier-war">
-    <img src="./Assets/Photos/warrors IX.png" alt="warrior-ix">
-    <img src="./Assets/Photos/pubjken dak.png" alt="pubjeken-dak">
-    <img src="./Assets/Photos/garela menihem.png" alt="gareala-manihem">
-    
-    <div>
-        <img src="./Assets/Photos/Rectangle 57.png" alt="rectangle-57">
-        <p>A War Game That Will Get Your Adrenaline Pumping</p>
-        <p>This is the best episode that we present to you, we collect all over asia and we present it to you only for you, our special customer, this is an episode discussing the design of various types of design</p>
-        <button>Explore Now</button> 
-        <button>Learn More</button>
+    <p class="heading1">The Most Popular Game About Fighting And Wars</p>
+    <div class="popular-games-card">
+        <div class="popular-games a">
+            <img src="./Assets/Photos/soldier war.png" alt="soldier-war">
+            <div class="popular-games-inside">
+            <p>The Soldier War</p>
+            <p>Actions</p>
+            <img class="5star" src="./Assets/Icons/5stars.svg" alt="5star-svg">
+            <button >Download</button>
+           </div>      
+        </div>
+        <div class="popular-games b">
+           <img src="./Assets/Photos/warrors IX.png" alt="warrior-ix">
+           <div class="popular-games-inside">
+           <p>The Warriors IX</p>
+           <p>Actions</p>
+           <img class="5star" src="./Assets/Icons/5stars.svg " alt="5star">
+           <button >Download</button>
+          </div></div>
+        <div class="popular-games c">
+           <img src="./Assets/Photos/pubjken dak.png" alt="pubjeken-dak">
+           <div class="popular-games-inside">
+           <p>Pubjiekn Dak</p>
+           <p>Actions</p>
+           <img class="5star" src="./Assets/Icons/5stars.svg" alt="5star">
+           <button >Download</button>
+          </div></div>
+
+        <div class="popular-games d">
+          <img src="./Assets/Photos/garela menihem.png" alt="gareala-manihem">
+          <div class="popular-games-inside">
+          <p>Garela Menihem</p>
+          <p>Actions</p>
+          <img class="5star" src="./Assets/Icons/5stars.svg" alt="5star"> 
+          <button >Download</button>
+          </div></div>
     </div>
-    <div>
+    <div class="war-game">
+     
+        <img src="./Assets/Photos/Rectangle 57.png" alt="rectangle-57">
+        <div class="war-game-inside">
+            <p>A War Game That Will Get Your Adrenaline Pumping</p>
+            <p>This is the best episode that we present to you, we collect all over asia and we present it to you only for you, our special customer, this is an episode discussing the design of various types of design</p>
+            <button>Explore Now</button> 
+            <button>Learn More</button>
+        </div>
+    </div>
+    <div class="Game-Recommend">
       <p>Game Recommend For You This Week</p>
-      <img src="./Assets/Icons/leftArrow.svg" alt="left-arrow">
-      <img src="./Assets/Icons/rightArrow.svg" alt="right-arrow">
+      <div class="arrows" style="display: flex;">
+      <div class="arrows1">     
+        <img src="./Assets/Icons/leftArrow.svg" alt="left-arrow"> 
+      </div>  
+      <div class="arrows2">
+        <img src="./Assets/Icons/rightArrow.svg" alt="right-arrow">
+      </div>
+    </div>
+
     </div>
     
 
     <!-- grid -->
-    <section>
+    <section class="section-page2">
         
-     <div>
-          <div>
-            <img src="./Assets/Photos/Rectangle 75.png " alt="Rectangle-75">
-        </div>
-
-        <div>
+     <div class="game-recmded">
+        <img  src="./Assets/Photos/Rectangle 75.png " alt="Rectangle-75">
+        <div class="game-recmded-para">
             <p>The World's strongest human battle</p>
             <p>Action Sport</p>
             <p>This is a game about the battle of the strongest humans on earth</p>
@@ -78,25 +129,19 @@
      </div>
 
 
-     <div>
-        <div>
-            <img src="./Assets/Photos/Rectangle 76.png" alt="Rectangle-76">
-        </div>
-
-        <div>
+     <div class="game-recmded">
+        <img  src="./Assets/Photos/Rectangle 76.png" alt="Rectangle-76">
+        <div class="game-recmded-para">
             <p>Adventure in snake cave danger </p>
             <p>Adventure Actions</p>
             <p>Adventure in a dangerous snake cave with friends who were going on vacation</p>
-            <button></button>
+            <button>Download</button>
         </div>
      </div>
     
-     <div>
-        <div>
-            <img src="./Assets/Photos/Rectangle 77.png" alt="Rectangle-77">
-        </div>
-
-        <div>
+     <div class="game-recmded">
+        <img  src="./Assets/Photos/Rectangle 77.png" alt="Rectangle-77">
+        <div class="game-recmded-para">
             <p>Super hero wearing spider maske</p>
             <p>Strategy Actions</p>
             <p>A superhero wearing a spider mask who helps many people in the world</p>
@@ -105,12 +150,9 @@
 
     </div>
 
-    <div>
-        <div> 
-            <img src="./Assets/Photos/Rectangle 78.png" alt="Rectangle-78"> 
-        </div>
-
-        <div>
+    <div class="game-recmded">
+        <img  src="./Assets/Photos/Rectangle 78.png" alt="Rectangle-78"> 
+        <div class="game-recmded-para">
             <p>Masked hero with a million powers</p>
             <p>Adventure</p>
             <p>Omongken is the best podcast that is the best podcast that you can use</p>
@@ -120,22 +162,30 @@
     </section>
 
     <!-- page3 -->
-   <section>
+   <section class="section-page3">
         <p>Most Played Games of the Year</p>
-        <div>
+        <div class="section-page3-img">
             <img src="./Assets/Photos/Rectangle 17.png" alt="Rectangle-17">
             <div>
-                <p>We have data onn the most played games this year and as a result, games about battles and wars are very popular with gamerss at this time, so we recommend this game into your cart to be used as your game.</p>
-                <img src="./Assets/Photos/Rectangle 18.png" alt="Rectangle-18"><img src="./Assets/Photos/Rectangle 90.png" alt="Rectangle-90">
+                <p class="section-page3-para">We have data on the most played games this year and as a result, games about battles and wars are very popular with gamerss at this time, so we recommend this game into your cart to be used as your game.</p>
+                <div class="section-page3-flex">
+                    <img src="./Assets/Photos/Rectangle 18.png" alt="Rectangle-18">
+                    <img src="./Assets/Photos/Rectangle 90.png" alt="Rectangle-90">
+                </div>
             </div>
-            <img src="./Assets/Icons/GAMES OF THE WORLD.svg" alt="games-of-the-world">
+            <div class="GAMES-OF-THE-WORLD">
+              <img src="./Assets/Icons/GAMES OF THE WORLD.svg" alt="games-of-the-world">
+            </div>
         </div>
     </section>
     
     <section>
-        <img src="./Assets/Photos/Rectangle 606.png" alt="Rectangle-606">
-        <div>
-            <p>Have an Unforgettabe Experience</p>
+        <div >
+            <img class="rectangel600" src="./Assets/Photos/Rectangle 606.png" alt="Rectangle-606">
+        </div>
+
+        <div class="unforgettable">
+            <p>Have an Unforgettable Experience</p>
             <p>Have an unforgettabe experience and play now to get attractive promos</p>
             <button>Get Started</button>
         </div>
