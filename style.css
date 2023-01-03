@@ -370,24 +370,44 @@ nav{
 }
 .rectangel600{
     width: 100%;
+    filter: brightness(50%);
+    
 }
 
 .unforgettable{
+    color: #f32626;
+
 
 }
+.rectangel600-para{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin: 100px 350px;
+    line-height: 39px;
+    z-index: 1;
+    
+}
 
-.unforgettable>p:nth-child(1){
+
+
+.rectangel600-para>p:nth-child(1){
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 15px;
+}
 
-    
+.rectangel600-para>p:nth-child(2){
+    font-size: 15px;
+    color: #808080;
+    width: 50%;
+    margin-left: 165px;
+    line-height: 25px;
+    margin-bottom: 20px ;
+
 }
-.unforgettable>p:nth-child(2){
-    font-size: 13px;
-    
-    
-}
-.unforgettable>button:nth-child(3){
+
+.rectangel600-para button{
     font-size: 15px;
     font-weight: 540;
     background-color: tomato;
@@ -395,3 +415,4 @@ nav{
     padding: 15px 29px;
     color: #fff;
 }
+
